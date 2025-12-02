@@ -1,0 +1,18 @@
+{
+  "name": "minichat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "node ./backend.js",
+    "client": "node ./client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lemonnik6484/MiniChat.git"
+  },
+  "private": true,
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}
