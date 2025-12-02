@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "backend": "node ./backend.js",
-    "client": "node ./client.js"
+    "backend": "node server.js",
+    "client": "node client.js"
   },
   "repository": {
     "type": "git",
