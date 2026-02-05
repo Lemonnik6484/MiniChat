@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 const readline = require('readline');
 
-const address = process.argv[2] || 'localhost:8080';
+const address = process.argv[2] || 'localhost:9090';
 console.log("Connecting to: ws://" + address);
 
 const ws = new WebSocket('ws://' + address);

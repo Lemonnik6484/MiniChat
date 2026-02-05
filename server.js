@@ -92,7 +92,7 @@ function loadusers() {
     })
 }
 
-server.listen(8080, () => {
-    console.log("MiniChat Server WebSocket started on ws://localhost:8080");
+server.listen(9090, () => {
+    console.log("MiniChat Server WebSocket started on ws://localhost:9090");
     loadusers();
 });

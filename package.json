@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "backend": "node server.js",
+    "server": "node server.js",
     "client": "node client.js"
   },
   "repository": {
